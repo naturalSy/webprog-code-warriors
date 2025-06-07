@@ -3924,6 +3924,77 @@ input, select, textarea {
 			#menu .close:hover:after, #menu .close:active:after {
 				opacity: 1;
 			}
+			.checklist {
+				list-style: none;
+				padding: 0;
+			  }
+			  
+			  .checklist li {
+				padding: 1em 0;
+				border-bottom: 1px solid #ddd;
+			  }
+			  
+			  .checklist .stars {
+				color: #f5c518;
+				margin-right: 0.5em;
+				font-size: 1.3em;
+			  }
+			  
+			  .item-detail {
+				margin-top: 0.5em;
+				padding-left: 1.5em;
+			  }
+			  
+			  .item-detail img {
+				max-width: 200px;
+				border-radius: 8px;
+				margin-bottom: 0.5em;
+			  }
+			  
+			  .item-detail p {
+				margin: 0;
+				font-size: 0.95em;
+				color: #444;
+			  }
+			  .importance-title {
+				font-size: 1.5em;
+				margin-top: 2em;
+				margin-bottom: 1em;
+				color: #f5c518;
+			  }
+			  
+			  .item-grid {
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+				gap: 1.5em;
+				margin-bottom: 2em;
+			  }
+			  
+			  .item {
+				background: #f8f8f8;
+				padding: 1em;
+				border-radius: 8px;
+				text-align: center;
+				box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+			  }
+			  
+			  .item img {
+				max-width: 100%;
+				height: auto;
+				border-radius: 5px;
+				margin-bottom: 0.5em;
+			  }
+			  
+			  .item h4 {
+				margin: 0.5em 0 0.2em;
+				color:#555;
+			  }
+			  
+			  .item p {
+				font-size: 0.9em;
+				color: #555;
+			  }
+	
 
 	body.is-ie #menu {
 		background: rgba(42, 47, 74, 0.975);
