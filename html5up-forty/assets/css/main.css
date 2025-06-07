@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #242943;
+		background: #343820;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3953,8 +3953,6 @@ input, select, textarea {
 #one{
 	background-color: #314231;
 }
-#two section:nth-of-type(4) .content {
-  background-color: #343820; /* 연주황 */
-  padding: 2em;
-  border-radius: 10px;
+#three{
+	background-color: #314231;
 }
